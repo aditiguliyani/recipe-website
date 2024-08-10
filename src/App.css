@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+.main{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav{
+  background-color: rgb(8, 27, 130);
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 10%;
+  /* padding: 5px; */
+}
+.right{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  width: 43%;
+}
+.right div{
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.right div:hover{
+  background-color: rgb(44, 32, 209);
+  
+}
+.left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  position: absolute;
+  top: 30;
+  left: 0;
+}
+.search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search input{
+  width: 25rem;
+  height: 26px;
+}
+.slider{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  margin-left: 3rem;
+  perspective: 800px;
+}
+.slider img{
+  border-radius: 5%;
+  border: 2px solid rgb(243, 243, 251);
+  transition: transform 0.3s ease;
+}
+.slider img:hover{
+  transform: translateZ(100px);
+  border: 2px solid rgb(97, 97, 240);
+}
+.slider2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 800px;
+  width: 98%;
+  margin: 1rem;
+}
+.slider2 img{
+  border-radius: 5%;
+  border: 2px solid rgb(243, 243, 251);
+  transition: transform 0.3s ease;
+}
+.slider2 img:hover{
+  transform: translateZ(150px);
+  border: 2px solid rgb(97, 97, 240);
+}
+.btn{
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: aqua;
+  border-radius: 5%;
+  margin: 2rem;
+  border: 2px solid rgb(23, 23, 126);
+}
+.img{
+  perspective: 800px;
+}
+.img img{
+  border-radius: 5%;
+  border: 2px solid rgb(243, 243, 251);
+  transition: transform 0.3s ease;
+}
+.img img:hover{
+  transform: translateZ(100px);
+  border: 2px solid rgb(97, 97, 240);
+}
+.link{
+  text-decoration: none;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
