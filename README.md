@@ -1,3 +1,6 @@
+**#Intro**
+This website is a working website made with the help of react. In this website a third party API is used which is the mealdb api available online. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
